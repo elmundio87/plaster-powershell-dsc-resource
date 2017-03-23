@@ -2,7 +2,7 @@ configuration <%=${PLASTER_PARAM_project_name}%>
 {
     param (
         [ValidateSet('Present', 'Absent')]
-        [string] $Ensure = 'Present',
+        [string] $Ensure = 'Present'
      )
 
     #Import-DSCResource -ModuleName xPSDesiredStateConfiguration
